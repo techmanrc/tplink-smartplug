@@ -19,6 +19,9 @@ Turn On
 Turn Off
 {"system":{"set_relay_state":{"state":0}}}
 
+Turn On Device LED (Night mode)
+{"system":{"set_led_off":{"off":0}}}
+
 Turn Off Device LED (Night mode)
 {"system":{"set_led_off":{"off":1}}}
 
@@ -120,7 +123,7 @@ Get Daily Statistic for given Month
 {"emeter":{"get_daystat":{"month":1,"year":2016}}}
 
 Get Montly Statistic for given Year
-{"emeter":{""get_monthstat":{"year":2016}}}
+{"emeter":{"get_monthstat":{"year":2016}}}
 
 Erase All EMeter Statistics
 {"emeter":{"erase_emeter_stat":null}}
